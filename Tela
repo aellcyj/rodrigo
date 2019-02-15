@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>CADASTRO</title>
+    </h:head>
+    <h:body>
+        <h:form id="cad">
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+
+            <center>
+               
+                <h:panelGrid id="pcad" columns="6" style="border: 0">
+
+                    <p:outputLabel value="Nome" for="name"/>
+                    <p:inputText value="" id="name"/>
+                    <p:outputLabel value="Produto"/>
+                    <p:inputText value=""/>
+                    <p:outputLabel value="Masculino"/>
+                    <p:inputText value=""/>
+                    <p:outputLabel value="Feminino"/>
+                    <p:inputText value=""/>
+                    <p:outputLabel value="Quantidade"/>
+                    <p:inputText value=""/>
+                     <p:outputLabel value="Setor"/>
+                    <p:inputText value=""/>
+                    
+                </h:panelGrid>
+                <br/>
+
+                <p:commandButton value="Incluir"/>
+                <p:commandButton value="Sair"/>
+            </center>
+            
+            
+
+
+
+
+        </h:form>
+
+    </h:body>
+</html>
